@@ -1,17 +1,17 @@
-# go-16c
+# go-sixteencolors
 
-go-16c is a Go client library for accessing the the [Sixteen Colors](https://16colo.rs) API.
+go-sixteencolors is a Go client library for accessing the the [Sixteen Colors](https://16colo.rs) API.
 
 ## Usage
 
 ```
-import "github.com/christianvozar/go-16c/16c"
+import "github.com/christianvozar/go-sixteencolors/sixteencolors"
 ```
 
-Construct a new 16c client then use the various services on the client to access different parts of the API. For example:
+Construct a new API client then use the various services on the client to access different parts of the API. For example:
 
 ```
-client := 16c.NewClient(nil)
+client := sixteencolors.NewClient(nil)
 
 // List all packs from 2020
 
