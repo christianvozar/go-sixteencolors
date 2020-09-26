@@ -4,7 +4,7 @@ go-sixteencolors is a Go client library for accessing the the [Sixteen Colors](h
 
 ## Usage
 
-```
+```Go
 import "github.com/christianvozar/go-sixteencolors/sixteencolors"
 ```
 
